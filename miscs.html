@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="../css/jemdoc.css" type="text/css" />
+<title>Miscellaneous</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="../public/index.html">Home</a></div>
+<div class="menu-item"><a href="../public/groups.html">Academic&nbsp;Groups</a></div>
+<div class="menu-item"><a href="../public/datacodes.html">Open&nbsp;Data&nbsp;&&nbsp;Codes</a></div>
+<div class="menu-item"><a href="../public/coursecollections.html">Course&nbsp;Collections</a></div>
+<div class="menu-item"><a href="../public/miscs.html" class="current">Miscellaneous</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Miscellaneous</h1>
+</div>
+<h2>Research interests</h2>
+<p>This page is designed for clarifying my research interests among several topics. 
+</p>
+<ul>
+<li><p>Waves in Complex Media
+</p>
+<ul>
+<li><p><b>Attenuation</b>: Phenomenological Models (Fractional and Generalized Mechanical Models, Casuality-imposed Power-law Models), Acoustic–Electromagnetic Analogy;
+</p>
+</li>
+<li><p><b>Poroelasticity</b>: Biot Theory, Wave-induced Fluid Flow (WIFF), Grain‐Shearing, Fractional Equivalence, DARS;
+</p>
+</li>
+<li><p><b>Anisotropy</b>;
+</p>
+</li>
+<li><p><b>Numerical Methods</b>: Fractional Laplacian Solver (PSM, RBF, IGA), Optimized Variable-Grid FD, FEM.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>Geophysical Inversion and Imaging
+</p>
+<ul>
+<li><p><b>Attenuation Estimation</b>: Biomedical tomography, Seismic tomography;
+</p>
+</li>
+<li><p><b>Seismic Imaging</b>: Explicit Stabilization, Defraction Imaging, Multiples Imaging;
+</p>
+</li>
+<li><p><b>Measurement-oriented Imaging</b>: Borehole Seismic, Earthquakes, Microseismic, Ambient Noise, DAS;
+</p>
+</li>
+<li><p><b>Nonlinear Inverse Problems</b>: Multiparameters FWI, Constitutive Relation Inversion;
+</p>
+</li>
+<li><p><b>Dynamic Seismic Inversion</b>: Multi-physics Coupling (Wave physics, Rock physics and Fluid dynamics), Electroseismic Effect.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>Seismic Signal Processing
+</p>
+<ul>
+<li><p><b>Linear Inverse Problem</b>: Seismic Attenuation Compensation, Deconvolution, Seismic Denoising and Reconstruction;
+</p>
+</li>
+<li><p><b>Regularization</b>: Functional analytic regularization, Statistical regularization (Beysian Inference);
+</p>
+</li>
+<li><p><b>(Non)convex Optimization</b>: Proximal Splitting (Split Bregman, ADMM, TOS), Distributed Optimization, Nonconvex optimization (\(L_{1-2}\), \(L_p\), IPS, GMC penalty);
+</p>
+</li>
+<li><p><b>Compressed Sensing</b>: RIP, Sparse Representation, Sparse Encoded Experiments.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>High Proformance Computing
+</p>
+<ul>
+<li><p><b>Parallel Programming</b>: OpenMP, MPI, CUDA;
+</p>
+</li>
+<li><p><b>Parallel Strategies</b>: Spectral Domain Decomposition, Dynamic Parallelism.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>Deep Learning
+</p>
+<ul>
+<li><p><b>Data-driven deep learning</b>: Automatic Denoising and Picking, Automatic Seismic Interpretation;
+</p>
+</li>
+<li><p><b>Physics-based deep learning</b>: Physics-informed Neural Networks, Physics Constrained Learning.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<h2>Softwares on Linux</h2>
+<ol>
+<li><p>Git
+</p>
+<ol>
+<li><p>Use <b><tt>git init</tt></b> to create a new git repository.
+</p>
+</li>
+<li><p>Create a working copy of a local repository by running the command <b><tt>git clone /path/to/repository</tt></b>, when using a remote server, your command will be <b><tt>git clone username@host:/path/to/repository</tt></b>.
+</p>
+</li>
+<li><p>Your local repository consists of three &ldquo;trees&rdquo; maintained by git. the first one is your <b>Working Directory</b> which holds the actual files, the second one is the <b>Index</b> which acts as a staging area and finally the <b>HEAD</b> which points to the last commit you've made.
+</p>
+</li>
+<li><p>You can propose changes (add it to the <b>Index</b>) using <b><tt>git add &lt;filename&gt;</tt></b> (you’ll probably want to create a .gitignore file right away, to indicate all of the files you don’t want to track.), and actually commit these changes use <b><tt>git commit -m &ldquo;Commit message&rdquo;</tt></b>. Now the file is committed to the <b>HEAD</b>, but not in your remote repository yet.
+</p>
+</li>
+<li><p>Your changes are now in the <b>HEAD</b> of your local working copy. To send those changes to your remote repository, execute <b><tt>git push origin master</tt></b> (Change <b><tt>master</tt></b> to whatever branch you want to push your changes to). If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with <b><tt>git remote add origin &lt;server&gt;</tt></b>. Now you are able to push your changes to the selected remote server.
+</p>
+</li></ol>
+</li>
+<li><p>Anaconda2 with the following libraries:
+</p>
+<ol>
+<li><p>Obspy
+</p>
+</li>
+<li><p>TensorFlow2
+</p>
+</li>
+<li><p>PyTorch
+</p>
+</li></ol>
+</li>
+<li><p>Matlab with the following toolboxes:
+</p>
+<ol>
+<li><p>crewes
+</p>
+</li>
+<li><p>CurveLab
+</p>
+</li>
+<li><p>k-Wave
+</p>
+</li>
+<li><p>segymat
+</p>
+</li>
+<li><p>SeismicLab
+</p>
+</li>
+<li><p>chebfun
+</p>
+</li></ol>
+</li>
+<li><p>MPICH3
+</p>
+</li>
+<li><p>EIGEN3
+</p>
+</li>
+<li><p>FFTW3
+</p>
+</li>
+<li><p>Madagascar
+</p>
+</li>
+<li><p>SeismicUnix
+</p>
+</li>
+<li><p>Texlive2017 + TexMaker
+</p>
+</li>
+<li><p>CUDA10.0
+</p>
+</li>
+<li><p>Sublime
+</p>
+</li>
+</ol>
+<h2>Softwares on Mac</h2>
+<ol>
+<li><p>Anaconda2
+</p>
+</li>
+<li><p>Texlive2018 + TexMaker
+</p>
+</li>
+<li><p>Madagascar
+</p>
+</li>
+<li><p>SeismicUnix
+</p>
+</li>
+<li><p>Sublime
+</p>
+</li>
+</ol>
+<h2>Website Generators</h2>
+<p>Static site generators focus on one main task: generate a complete static HTML-based site. This result does not rely on databases or other external data sources and therewith avoid any server-side processing when accessing the website. 
+</p>
+<p>In comparison to dynamic websites, static sites have many advantages and therefore are becoming more and more popular. Static sites can be served quickly, they offer a great extend of simplicity and comes with security benefits out of the box. Furthermore it’s easy to deploy and host static sites as there are no special requirements which needs to be covered by your hosting provider.
+</p>
+<p>Here I list some static site generators that I have ever used.
+</p>
+<ol>
+<li><p><a href="https://gohugo.io/" target=&ldquo;blank&rdquo;>Hugo</a> is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again. See an example <a href="https://georgecushen.com/" target=&ldquo;blank&rdquo;>academic website</a> powered by <a href="https://gohugo.io/" target=&ldquo;blank&rdquo;>Hugo</a> with an <a href="https://wowchemy.com/" target=&ldquo;blank&rdquo;>Academic</a> theme.
+</p>
+</li>
+<li><p><a href="https://jekyllrb.com/" target=&ldquo;blank&rdquo;>jekyll</a> is a blog-aware static site generator in Ruby.
+</p>
+</li>
+<li><p><a href="https://hexo.io/" target=&ldquo;blank&rdquo;>Hexo</a> is a fast, simple and powerful blog framework. You write posts in Markdown (or other markup languages) and Hexo generates static files with a beautiful theme in seconds. See an example <a href="https://notes.iissnan.com/" target=&ldquo;blank&rdquo;>blog website</a> powered by <a href="https://hexo.io/" target=&ldquo;blank&rdquo;>Hexo</a> with an elegant Theme <a href="http://theme-next.iissnan.com/" target=&ldquo;blank&rdquo;>NexT</a>.
+</p>
+</li>
+<li><p><a href="https://github.com/wsshin/jemdoc_mathjax" target=&ldquo;blank&rdquo;>jemdoc+MathJax</a> is a light text-based markup language (<a href="http://jemdoc.jaboc.net/" target=&ldquo;blank&rdquo;>jemdoc</a>) designed for creating websites with MathJax support.
+</p>
+</li>
+</ol>
+<div id="footer">
+<div id="footer-text">
+Page generated 2020-09-15 19:20:00 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
