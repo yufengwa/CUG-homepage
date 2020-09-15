@@ -130,6 +130,9 @@ MathJax.Hub.Config({
 <li><p>Git
 </p>
 <ol>
+<li><p>Install Git on Linux using <b><tt>sudo apt install git-all</tt></b>.
+</p>
+</li>
 <li><p>Use <b><tt>git init</tt></b> to create a new git repository.
 </p>
 </li>
@@ -143,6 +146,16 @@ MathJax.Hub.Config({
 </p>
 </li>
 <li><p>Your changes are now in the <b>HEAD</b> of your local working copy. To send those changes to your remote repository, execute <b><tt>git push origin master</tt></b> (Change <b><tt>master</tt></b> to whatever branch you want to push your changes to). If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with <b><tt>git remote add origin &lt;server&gt;</tt></b>. Now you are able to push your changes to the selected remote server.
+</p>
+</li>
+<li><p>A quick example:<br />
+<b><tt>echo &ldquo;# A quick example&rdquo; >> README.md <br />
+git init <br />
+git add README.md <br />
+git commit -m &ldquo;first commit&rdquo; <br />
+git branch -M master <br />
+git remote add origin https://github.com/myname/example.git <br />
+git push -u origin master</tt></b>
 </p>
 </li></ol>
 </li>
@@ -247,7 +260,7 @@ MathJax.Hub.Config({
 </ol>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-09-15 19:20:00 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2020-09-15 20:36:14 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
